@@ -1,0 +1,6 @@
+.venv
+.vscode
+__pycache__
+
+try0.py
+try1.py
