@@ -7,7 +7,7 @@ if not os.path.exists("config.json"):
         "height": 400,
         "controll": {
             "width": 600,
-            "height": 100
+            "height": 80
         }
     }
             
