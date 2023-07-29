@@ -23,7 +23,7 @@ class App(tkinter.Tk):
         self.title("Datalogger")
         self.geometry(f'{w}x{h}+{x}+{y}')
         self.resizable(False, False)
-        # self.overrideredirect(1)
+        self.overrideredirect(1)
 
         ControlFrame(self)
 
