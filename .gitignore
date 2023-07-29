@@ -2,5 +2,9 @@
 .vscode
 __pycache__
 
+config.json
+result
+*.wav
+
 try0.py
 try1.py
