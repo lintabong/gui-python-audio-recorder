@@ -4,6 +4,8 @@ import tkinter
 from helper import config
 from helper import fileManager
 
+from view.controll import ControlFrame
+
 ctypes.windll.shcore.SetProcessDpiAwareness(1)
 
 
@@ -22,6 +24,8 @@ class App(tkinter.Tk):
         self.geometry(f'{w}x{h}+{x}+{y}')
         self.resizable(False, False)
         # self.overrideredirect(1)
+
+        ControlFrame(self)
 
 
 if __name__ == "__main__":

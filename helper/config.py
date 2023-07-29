@@ -5,6 +5,10 @@ if not os.path.exists("config.json"):
     result = {
         "width": 600,
         "height": 400,
+        "controll": {
+            "width": 600,
+            "height": 100
+        }
     }
             
     with open("config.json", "w") as outfile:

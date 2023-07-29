@@ -24,7 +24,7 @@ def saveSound(rec, freq=44100):
     elif num >= 100 and num < 1000:
         num = f'0{num}'
     else:
-        num = f'{num+1}'
+        num = f'{num}'
 
     filename = datetime.now().replace(microsecond=0).time()
     filename = f'{num}_{re.sub(r":", "", str(filename))}'
